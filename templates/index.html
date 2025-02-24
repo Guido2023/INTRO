@@ -1,1 +1,3 @@
-Hola,  visita mi <a href="{% url 'blog:home' %}">blog aquí</a>
+{% extends 'base.html' %}
+
+{% block content %}Hola,  visita mi <a href="{% url 'blog:home' %}">blog aquí</a>{% endblock %}
